@@ -1,0 +1,22 @@
+
+print ("The Text Based Game has loaded")
+print ("Would you like to eat Apples or Oranges")
+roomSelection = input ("Enter Apples or Oranges")
+if roomSelection == "Apples":
+    print ("You have entered Apples")
+    roomSelection = input ("Enter Fruit or Juice")
+    if roomSelection == "Fruit":
+        print ("You have entered Fruit")
+    elif roomSelection == "Juice":
+        print ("You have entered Juice")
+    else:
+        print ("Its not that hard")
+elif roomSelection == "Oranges":
+	print ("You have entered Oranges")
+	roomSelection = input ("Would you like Fruit or Juice")
+	if roomSelection == "Fruit":
+	    print ("You have entered Fruit")
+	elif roomSelection == "Juice":
+	    print ("You have entered Juice")
+	else:
+	    print ("Its not that hard")
